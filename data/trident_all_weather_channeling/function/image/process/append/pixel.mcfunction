@@ -1,0 +1,1 @@
+function trident_all_weather_channeling:image/process/build_pixel with storage trident_all_weather_channeling:image data.current

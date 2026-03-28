@@ -1,0 +1,2 @@
+data modify storage trident_all_weather_channeling:image data.current.pixel_color set from storage trident_all_weather_channeling:image data.background_color
+function trident_all_weather_channeling:image/process/build_pixel with storage trident_all_weather_channeling:image data.current

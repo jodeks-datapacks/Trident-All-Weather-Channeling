@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "trident_hit_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:weather_check",
+            "thundering": false
+          }
+        ],
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": [
+                "minecraft:trident"
+              ],
+              "nbt": "{item: {components: {\"minecraft:enchantments\": {\"minecraft:channeling\": 1}}}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "trident_all_weather_channeling:app/trident_hit_entity"
+  }
+}

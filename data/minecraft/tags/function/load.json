@@ -1,0 +1,6 @@
+{
+  "values": [
+    "trident_all_weather_channeling:app/setup",
+    "trident_all_weather_channeling:app/load_message"
+  ]
+}
