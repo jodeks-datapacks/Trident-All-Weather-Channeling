@@ -16,7 +16,7 @@ function trident_all_weather_channeling:image/set_image_data {\
     "Trident All Weather Channeling",\
     {"text": "Channeling works in any weather, not only thunderstorms ", "color": "#aaaaaa"},\
     "",\
-    [{"text": "Datapack version: ", "color": "#00a800"}, {"text": "v2.0.3", "color": "#54fc54"}],\
+    [{"text": "Datapack version: ", "color": "#00a800"}, {"text": "v2.0.4", "color": "#54fc54"}],\
     "",\
     [{"text": "By ", "color": "#fcfcfc"}, {"text": "Jodek", "color": "#fcfc54"}],\
     [{"text": "modrinth.com/datapack/trident-all-weather-channeling", "color": "#a800a8"}],\
