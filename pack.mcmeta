@@ -9,12 +9,6 @@
       {
         "text": "\"Trident All Weather Channeling\" (trident_all_weather_channeling)"
       },
-      "\n",
-      {
-        "translate": "trident_all_weather_channeling.description",
-        "fallback": "Channeling works in any weather, not only thunderstorms ",
-        "color": "#aaaaaa"
-      },
       "\n\n",
       {
         "translate": "jodek.version",
@@ -24,7 +18,7 @@
         "text": " "
       },
       {
-        "text": "2.0.4",
+        "text": "2.1.0",
         "color": "#55ff55"
       },
       "\n",
