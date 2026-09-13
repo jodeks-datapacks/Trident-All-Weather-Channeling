@@ -3,19 +3,19 @@
     "trident_hit_entity": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:weather_check",
-            "thundering": false
-          }
-        ],
+        "player": {
+          "type": "minecraft:weather_check",
+          "thundering": false
+        },
         "damage": {
           "type": {
             "direct_entity": {
-              "type": [
-                "minecraft:trident"
-              ],
-              "nbt": "{item: {components: {\"minecraft:enchantments\": {\"minecraft:channeling\": 1}}}}"
+              "minecraft:entity_type": "minecraft:trident",
+              "minecraft:components": {
+                "minecraft:enchantments": {
+                  "minecraft:channeling": 1
+                }
+              }
             }
           }
         }
